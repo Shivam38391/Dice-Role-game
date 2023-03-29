@@ -93,8 +93,12 @@ hold.addEventListener('click', function() {
     //finish 
 
     playing = false
- 
+ //remove dice image 
+        dice.classList.add('hidden')
+
         document.querySelector(`.player--${activeplayer}`).classList.remove('player--active');
+
+        // add winner class
         document.querySelector(`.player--${activeplayer}`).classList.add('player--winner');
 
     
