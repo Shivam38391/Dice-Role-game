@@ -16,7 +16,7 @@ body {
   font-weight: 400;
   height: 100vh;
   color: #333;
-  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  background-image: linear-gradient(to top left, #be12e0 0%, #39f10a 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -168,4 +168,9 @@ main {
 
 .hidden {
   display: none;
+}
+
+
+.btn--info {
+  top: 53rem;
 }
